@@ -40,3 +40,4 @@ ajayap@mapupa.ai
 divyanshs@mapup.ai
 
 ## Vercel link
+https://analytics-dashboard-assessment-lilac.vercel.app/
