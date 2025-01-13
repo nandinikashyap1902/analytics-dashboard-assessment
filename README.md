@@ -8,20 +8,21 @@ The objective of this assessment is to analyze the provided Electric Vehicle (EV
 ev-dashboard/
 ├── public/
 │   ├── index.html
-│   └── .data-to-visualize/ElectricVehicleData.csv  # EV dataset
+│   └── .data-to-visualize/
+│       └── ElectricVehicleData.csv  # EV dataset
 ├── src/
 │   ├── components/
-│   │   ├── Header.jsx           # Navigation header
-│   │   ├── Chart.jsx            # Reusable chart component
+│   │   ├── Header.jsx               # Navigation header
+│   │   ├── Chart.jsx                # Reusable chart component
 │   ├── pages/
-│   │   ├── HomePage.jsx          # Landing page
-│   │   └── InsightsPage.jsx      # Insights page with visualizations
+│   │   ├── HomePage.jsx             # Landing page
+│   │   └── InsightsPage.jsx         # Insights page with visualizations
 │   ├── utils/
-│   │   └── dataProcessing.jsx    # CSV processing and data preparation
-│   ├── App.jsx                  # Main application file
-│   ├── index.html           # React entry point
-|   ├── Header.css           # css for header.jsx
-│   └── App.css                  # Global styles
+│   │   └── dataProcessing.jsx       # CSV processing and data preparation
+│   ├── App.jsx                      # Main application file
+│   ├── index.js                     # React entry point
+│   ├── Header.css                   # CSS for Header.jsx
+│   └── App.css                      # Global styles
 
 ## Tech Stack
 Frontend: ReactJS, Chart.js
